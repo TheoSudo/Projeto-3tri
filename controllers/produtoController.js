@@ -1,17 +1,13 @@
-// controllers/produtoController.js
 import Produto from '../models/produto.js'; 
 
 const produtoController = {
-    // ALTERAÇÃO AQUI: Usa .map(p => p.toJSON()) para garantir objetos planos
     getProductsData: async () => {
         const produtos = await Produto.findAll({ 
             order: [['createdAt', 'DESC']],
         });
-        // Retorna um array de objetos planos, 100% acessível pelo Handlebars
         return produtos.map(p => p.toJSON()); 
     },
 
-    // Rota GET /produtos: Lista todos os produtos (para gestão)
     listAllProducts: async (req, res) => {
         try {
             const produtos = await produtoController.getProductsData();
@@ -25,11 +21,9 @@ const produtoController = {
         }
     }, 
     
-    // Rota GET /pedidos/novo: Mostra o cardápio para o pedido
     showMenuForOrder: async (req, res) => {
         try {
             const produtos = await produtoController.getProductsData();
-            // Renderiza 'pedidos' e envia a variável 'produtos'
             res.render('pedidos', { 
                 produtos: produtos, 
                 isAdmin: req.session.user ? req.session.user.isAdmin : false
@@ -40,7 +34,6 @@ const produtoController = {
         }
     },
 
-    // ... (o restante do CRUD permanece igual, pois ele já usava findByPk e toJSON ou redirect)
     showAddForm: (req, res) => {
         res.render('add_produto');
     },
