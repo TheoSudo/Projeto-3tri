@@ -31,4 +31,3 @@ Certifique-se de ter instalado em sua máquina:
 Abra o terminal integrado no VS Code e rode:  
 ```bash
 git clone https://github.com/TheoSudo/Projeto-2-bim
-# Projeto-2-bim
