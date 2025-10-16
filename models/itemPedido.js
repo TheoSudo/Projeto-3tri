@@ -1,4 +1,3 @@
-// models/itemPedido.js
 import { DataTypes } from "sequelize";
 import db from "../config/db.js";
 import Pedido from "./pedido.js";
