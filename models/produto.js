@@ -18,8 +18,6 @@ const Produto = db.define('Produto', {
   }
 });
 
-// Nota: A sincronização no arquivo do Model é para fins de teste.
-// Idealmente, deve estar no arquivo de inicialização do app (index.js).
 db.sync({ force: false })
   .then(() => console.log('Tabela Produtos criada com sucesso!'))
   .catch(err => console.error('Erro ao criar tabela Produtos:', err));
