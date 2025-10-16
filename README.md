@@ -18,7 +18,8 @@ Siga as instruções abaixo para clonar o repositório, instalar as dependência
 Certifique-se de ter instalado em sua máquina:
 - Node.js
 - npm
-- MySQL  
+- SQLite3 (banco de dados principal do projeto)
+- MySQL (opcional — apenas se desejar usar outro banco)
 
 ---
 
@@ -29,5 +30,5 @@ Certifique-se de ter instalado em sua máquina:
 2. **Clone o Repositório:**  
 Abra o terminal integrado no VS Code e rode:  
 ```bash
-git clone https://github.com/TheoSudo/Web-Din-mico---Restaurante
+git clone https://github.com/TheoSudo/Projeto-2-bim
 # Projeto-2-bim
