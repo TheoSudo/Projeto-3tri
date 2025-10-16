@@ -30,4 +30,4 @@ Certifique-se de ter instalado em sua máquina:
 2. **Clone o Repositório:**  
 Abra o terminal integrado no VS Code e rode:  
 ```bash
-git clone https://github.com/TheoSudo/Projeto-2-bim
+git clone https://github.com/TheoSudo/Projeto-3tri
