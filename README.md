@@ -10,6 +10,13 @@ Este é o repositório do projeto **Restaurante**, desenvolvido com **Node.js** 
 
 ---
 
+### Link hospedado 
+
+```bash
+https://restaurante-5iiu.onrender.com/
+
+---
+
 ## Como Configurar e Executar o Projeto
 
 Siga as instruções abaixo para clonar o repositório, instalar as dependências e executar a aplicação localmente:
