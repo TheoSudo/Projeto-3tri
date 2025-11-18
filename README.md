@@ -12,7 +12,6 @@ Este é o repositório do projeto **Restaurante**, desenvolvido com **Node.js** 
 
 ### Link hospedado 
 
-```bash
 https://restaurante-5iiu.onrender.com/
 
 ---
